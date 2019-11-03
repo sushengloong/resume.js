@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div class="row">
-      <div class="col">
-        This resume is built with JavaScript and React.
+    <div className="row">
+      <div className="col">
+        This resume is built with JavaScript, React and Bootstrap.
         Source code is available at https://github.com/sushengloong/resume.js
       </div>
     </div>

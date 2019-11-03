@@ -10,7 +10,7 @@ export default function Resume() {
     {
       company: 'Salesforce',
       title: 'Senior Software Engineer',
-      employment: [
+      dates: [
         'Dec 2018 - Present (San Francisco, CA, USA)',
         'Jun 2017 - Nov 2018 (Singapore)'
       ],
@@ -25,7 +25,7 @@ export default function Resume() {
     {
       company: 'GovTech Singapore (formerly known as IDA Singapore)',
       title: 'Software Engineer',
-      employment: ['Oct 2014 - Jun 2017'],
+      dates: ['Oct 2014 - Jun 2017'],
       bulletPoints: [
         'Development and support of mission-critical government work pass systems in an Agile project team using Test-driven Development (TDD), Continuous Integration/Delivery (CI/CD) and DevOps.',
         'Conferred Minister of Manpower Award.',
@@ -35,7 +35,7 @@ export default function Resume() {
     {
       company: 'ShareInvestor',
       title: 'Senior Software Engineer',
-      employment: ['Nov 2012 - 2014'],
+      dates: ['Nov 2012 - 2014'],
       bulletPoints: [
         'Development and maintenance of flagship stock market data product features including real-time stock quotes, interactive charts, backend data integration, etc.',
         'Development and delivery of CMS-powered websites for public-listed companies.',
@@ -46,15 +46,26 @@ export default function Resume() {
   ]
 
   const educationData = [
-    
+    {
+      institution: 'The University of Queensland, Australia',
+      program: 'Bachelor of Information Technology',
+      gpa: '7 out of 7',
+      years: '2010 - 2011',
+      bulletPoints: [
+        'Best Project Group in Advanced Information Technology Project',
+        "Dean's Commendation for High Achievement",
+        'UQ EAIT Faculty International Scholarship'
+      ]
+    }
   ]
 
   return (
-    <main role="main" class="container">
+    <main role="main" className="container">
       <Header />
       <hr />
       <Work data={workData} />
-      <Education />
+      <Education data={educationData} />
+      <br />
       <Footer />
     </main>
   );

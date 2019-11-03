@@ -2,45 +2,45 @@ import React from 'react';
 
 export default function Work({data}) {
 
-  const renderEmployment = (employment) => {
-    return employment.map(emp => {
+  const renderDates = (dates) => {
+    return dates.map((d, i) => {
       return (
-        <div class="row">
-          <div class="col">{emp}</div>
+        <div className="row" key={`workDates-${i}`}>
+          <div className="col">{d}</div>
         </div>
       );
     });
   }
 
   const renderBulletPoints = (bulletPoints) => {
-    return bulletPoints.map(bp => {
+    return bulletPoints.map((bp, i) => {
       return (
-        <li>{bp}</li>
+        <li key={`workBulletPoint-${i}`}>{bp}</li>
       );
     });
   }
 
-  const renderWork = data.map(d => {
+  const renderWork = data.map((d, i) => {
     return (
-      <>
-        <div class="row">
-          <div class="col">{d.company}</div>
+      <div key={`work-${i}`}>
+        <div className="row">
+          <div className="col">{d.company}</div>
         </div>
-        <div class="row">
-          <div class="col">{d.title}</div>
+        <div className="row">
+          <div className="col">{d.title}</div>
         </div>
-        {renderEmployment(d.employment)}
+        {renderDates(d.dates)}
         <ul>
           {renderBulletPoints(d.bulletPoints)}
         </ul>
-      </>
+      </div>
     );
   });
 
   return (
-    <div class="row">
-      <div class="col-1">Work</div>
-      <div class="col-11">{renderWork}</div>
+    <div className="row">
+      <div className="col-2"><h2>Work</h2></div>
+      <div className="col-10">{renderWork}</div>
     </div>
   );
 };
