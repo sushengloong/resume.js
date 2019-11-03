@@ -13,17 +13,17 @@ export default function Education({data}) {
       <div key={`education-${i}`}>
         <div className="row">
           <div className="col-1">
-                <img src={`images/education/${d.icon}`} alt={`Icon: ${d.institution}`} />
+                <img src={`images/education/${d.icon}`} alt={`Logo: ${d.institution}`} className="logo" />
               </div>
               <div className="col-11">
                 <h3>{d.institution}</h3>
               </div>
         </div>
         <div className="row">
-          <div className="col">{d.program}, GPA {d.gpa}</div>
+          <div className="col subheading">{d.program}, GPA {d.gpa}</div>
         </div>
         <div className="row">
-          <div className="col">{d.years}</div>
+          <div className="col subheading-temporal">Graduated {d.graduated}</div>
         </div>
         <ul>
           {renderBulletPoints(d.bulletPoints)}

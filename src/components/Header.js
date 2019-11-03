@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div className="row  no-gutters">
-      <div className="col-8">
+    <div className="row  no-gutters align-items-end">
+      <div className="col-7">
         <h1>Su Sheng Loong</h1>
       </div>
-      <div className="col-4">
+      <div className="col-5">
         <div className="row">
           <div className="col">
             <img src={`images/email.png`} alt="email" /> sushengloong@gmail.com

@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './Header';
-import Education from './Education';
 import Work from './Work';
+import Education from './Education';
+import Certificate from './Certificate';
 import Footer from './Footer';
 
 export default function Resume() {
@@ -38,7 +39,7 @@ export default function Resume() {
       company: 'ShareInvestor',
       icon: 'shareinvestor.jpg',
       title: 'Senior Software Engineer',
-      dates: ['Nov 2012 - 2014'],
+      dates: ['Nov 2012 - Oct 2014'],
       bulletPoints: [
         'Development and maintenance of flagship stock market data product features including real-time stock quotes, interactive charts, backend data integration, etc.',
         'Development and delivery of CMS-powered websites for public-listed companies.',
@@ -46,7 +47,7 @@ export default function Resume() {
         'Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle, MySQL'
       ]
     }
-  ]
+  ];
 
   const educationData = [
     {
@@ -54,14 +55,31 @@ export default function Resume() {
       icon: 'uq.jpg',
       program: 'Bachelor of Information Technology',
       gpa: '7 out of 7',
-      years: '2010 - 2011',
+      graduated: 'Jul 2011',
       bulletPoints: [
         'Best Project Group in Advanced Information Technology Project',
         "Dean's Commendation for High Achievement",
         'UQ EAIT Faculty International Scholarship'
       ]
     }
-  ]
+  ];
+
+  const certificateData = [
+    {
+      name: 'Deep Learning Part II',
+      institution: 'University of San Francisco, USA',
+      icon: 'usf.png',
+      issued: 'May 2019',
+      credentialId: '520431140'
+    },
+    {
+      name: 'Deep Learning Specialization',
+      institution: 'Coursera',
+      icon: 'deeplearningai.jpg',
+      issued: 'Oct 2018',
+      credentialId: '9JXYEGFHJKDL'
+    }
+  ];
 
   return (
     <main role="main" className="container">
@@ -69,6 +87,7 @@ export default function Resume() {
       <hr />
       <Work data={workData} />
       <Education data={educationData} />
+      <Certificate data={certificateData} />
       <hr />
       <Footer />
     </main>

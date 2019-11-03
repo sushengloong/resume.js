@@ -6,7 +6,7 @@ export default function Work({data}) {
     return dates.map((d, i) => {
       return (
         <div className="row" key={`workDates-${i}`}>
-          <div className="col">{d}</div>
+          <div className="col subheading-temporal">{d}</div>
         </div>
       );
     });
@@ -27,7 +27,7 @@ export default function Work({data}) {
           <div className="col">
             <div className="row">
               <div className="col-1">
-                <img src={`images/work/${d.icon}`} alt={`Icon: ${d.name}`} />
+                <img src={`images/work/${d.icon}`} alt={`Logo: ${d.name}`} className="logo" />
               </div>
               <div className="col-11">
                 <h3>{d.company}</h3>
@@ -36,7 +36,7 @@ export default function Work({data}) {
           </div>
         </div>
         <div className="row">
-          <div className="col">{d.title}</div>
+          <div className="col subheading">{d.title}</div>
         </div>
         {renderDates(d.dates)}
         <ul>
