@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import Resume from './components/resume/Resume';
+import Resume from './components/Resume';
 
 ReactDOM.render(<Resume />, document.getElementById('root'));
 
