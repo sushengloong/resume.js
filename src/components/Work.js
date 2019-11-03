@@ -10,7 +10,7 @@ export default function Work({data}) {
         </div>
       );
     });
-  }
+  };
 
   const renderBulletPoints = (bulletPoints) => {
     return bulletPoints.map((bp, i) => {
@@ -18,13 +18,22 @@ export default function Work({data}) {
         <li key={`workBulletPoint-${i}`}>{bp}</li>
       );
     });
-  }
+  };
 
   const renderWork = data.map((d, i) => {
     return (
       <div key={`work-${i}`}>
         <div className="row">
-          <div className="col">{d.company}</div>
+          <div className="col">
+            <div className="row">
+              <div className="col-1">
+                <img src={`images/work/${d.icon}`} alt={`Icon: ${d.name}`} />
+              </div>
+              <div className="col-11">
+                <h3>{d.company}</h3>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="row">
           <div className="col">{d.title}</div>

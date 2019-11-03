@@ -12,7 +12,12 @@ export default function Education({data}) {
     return (
       <div key={`education-${i}`}>
         <div className="row">
-          <div className="col">{d.institution}</div>
+          <div className="col-1">
+                <img src={`images/education/${d.icon}`} alt={`Icon: ${d.institution}`} />
+              </div>
+              <div className="col-11">
+                <h3>{d.institution}</h3>
+              </div>
         </div>
         <div className="row">
           <div className="col">{d.program}, GPA {d.gpa}</div>

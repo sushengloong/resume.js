@@ -9,6 +9,7 @@ export default function Resume() {
   const workData = [
     {
       company: 'Salesforce',
+      icon: 'salesforce.png',
       title: 'Senior Software Engineer',
       dates: [
         'Dec 2018 - Present (San Francisco, CA, USA)',
@@ -23,7 +24,8 @@ export default function Resume() {
       ]
     },
     {
-      company: 'GovTech Singapore (formerly known as IDA Singapore)',
+      company: 'GovTech Singapore',
+      icon: 'govtech.png',
       title: 'Software Engineer',
       dates: ['Oct 2014 - Jun 2017'],
       bulletPoints: [
@@ -34,6 +36,7 @@ export default function Resume() {
     },
     {
       company: 'ShareInvestor',
+      icon: 'shareinvestor.jpg',
       title: 'Senior Software Engineer',
       dates: ['Nov 2012 - 2014'],
       bulletPoints: [
@@ -48,6 +51,7 @@ export default function Resume() {
   const educationData = [
     {
       institution: 'The University of Queensland, Australia',
+      icon: 'uq.jpg',
       program: 'Bachelor of Information Technology',
       gpa: '7 out of 7',
       years: '2010 - 2011',
@@ -65,7 +69,7 @@ export default function Resume() {
       <hr />
       <Work data={workData} />
       <Education data={educationData} />
-      <br />
+      <hr />
       <Footer />
     </main>
   );
