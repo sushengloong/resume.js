@@ -10,8 +10,8 @@ export default function Education({data}) {
 
   const renderEducation = data.map((d, i) => {
     return (
-      <div key={`education-${i}`}>
-        <div className="row">
+      <div key={`education-${i}`} className="record">
+        <div className="row align-items-center no-gutters">
           <div className="col-1">
                 <img src={`images/education/${d.icon}`} alt={`Logo: ${d.institution}`} className="logo" />
               </div>

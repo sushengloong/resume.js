@@ -22,10 +22,10 @@ export default function Work({data}) {
 
   const renderWork = data.map((d, i) => {
     return (
-      <div key={`work-${i}`}>
+      <div key={`work-${i}`} className="record">
         <div className="row">
           <div className="col">
-            <div className="row">
+            <div className="row align-items-center no-gutters">
               <div className="col-1">
                 <img src={`images/work/${d.icon}`} alt={`Logo: ${d.name}`} className="logo" />
               </div>
