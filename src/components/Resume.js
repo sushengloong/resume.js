@@ -18,11 +18,12 @@ export default function Resume() {
         'Jun 2017 - Nov 2018 (Singapore)'
       ],
       bulletPoints: [
-        'Developed and scaled data pipelines to process and create models on email marketing data for more than 1000 clients.',
-        'Developed web applications for clients to build, visualize and interact with custom data science reports.',
+        'Developed Scala-based data pipelines and Spark jobs to process and generate models on massive email marketing data.',
+        'Scaled data pipelines to handle hundreds of clients and implemented optimizations to reduce average AWS cost by 85%.',
+        'Developed web applications (Single Page App + REST API) for clients to build, visualize and interact with custom data science reports.',
         'Built in-house model metric dashboard framework to enable team members to quickly build dashboards using code.',
         'Spearheaded the messaging queue architecture design and implementation work to enable asynchronous data integration among four distributed teams.',
-        'Undertook DevOps work to set up CI/CD pipelines and automate configuration management.',
+        'Undertook DevOps work to develop tooling, set up CI/CD pipelines and automate configuration management.',
         'Scala, Play framework, Apache Spark, AWS (DataPipeline, EMR, EC2, S3, Lambda, Redshift, etc), Python, Django, React, Angular, D3.js, Postgres, MySQL, RabbitMQ, Redis, Jenkins, Terraform, Heroku.'
       ]
     },
@@ -43,8 +44,7 @@ export default function Resume() {
       title: 'Senior Software Engineer',
       dates: ['Nov 2012 - Oct 2014'],
       bulletPoints: [
-        'Developed flagship stock market data product features including real-time stock quotes, watchlist alerts, interactive charts, backend data integration, etc.',
-        'Scaled backend systems to support new market.',
+        'Developed flagship stock market data product features such as real-time stock quotes, watchlist alerts, interactive charts, market data integration, etc.',
         "Conferred ShareInvestor Director's Award for revamping the CMS-backed corporate website of Singapore Press Holdings.",
         'Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle, MySQL'
       ]
