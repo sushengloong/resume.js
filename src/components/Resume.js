@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Work from './Work';
 import Education from './Education';
+import Talk from './Talk';
 import Certificate from './Certificate';
 import Footer from './Footer';
 
@@ -31,7 +32,7 @@ export default function Resume() {
       title: 'Software Engineer',
       dates: ['Oct 2014 - Jun 2017'],
       bulletPoints: [
-        'Development and support of mission-critical government work pass systems in an Agile project team using Test-driven Development (TDD), Continuous Integration/Delivery (CI/CD) and DevOps.',
+        'Developed mission-critical government work pass systems in an Agile project team using Test-driven Development (TDD), Continuous Integration/Delivery (CI/CD) and DevOps.',
         'Conferred Minister of Manpower Award.',
         'Ruby on Rails, Angular.JS, Java, Ansible, Go.CD, Bash, etc.'
       ]
@@ -42,9 +43,9 @@ export default function Resume() {
       title: 'Senior Software Engineer',
       dates: ['Nov 2012 - Oct 2014'],
       bulletPoints: [
-        'Development and maintenance of flagship stock market data product features including real-time stock quotes, interactive charts, backend data integration, etc.',
-        'Development and delivery of CMS-powered websites for public-listed companies.',
-        "Conferred ShareInvestor Director's Award for revamping the CMS-backed corporate website of Singapore Press Holdings (SPH).",
+        'Developed flagship stock market data product features including real-time stock quotes, watchlist alerts, interactive charts, backend data integration, etc.',
+        'Scaled backend systems to support new market.',
+        "Conferred ShareInvestor Director's Award for revamping the CMS-backed corporate website of Singapore Press Holdings.",
         'Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle, MySQL'
       ]
     }
@@ -62,6 +63,27 @@ export default function Resume() {
         "Dean's Commendation for High Achievement",
         'UQ EAIT Faculty International Scholarship'
       ]
+    }
+  ];
+
+  const talkData = [
+    {
+      title: "Enterprise Integration with Ruby",
+      deck: "https://speakerdeck.com/sushengloong/enterprise-integration-with-ruby-29-mar-2016-singapore-ruby-meetup",
+      event: "Singapore Ruby Meetup",
+      eventDate: "Mar 2016"
+    },
+    {
+      title: "5 Random Ruby Tips",
+      deck: "https://speakerdeck.com/sushengloong/5-random-ruby-tips",
+      event: "Singapore Ruby Meetup",
+      eventDate: "Aug 2015"
+    },
+    {
+      title: "Algorithmic Trading for Fun and Profit",
+      deck: "https://speakerdeck.com/sushengloong/algorithmic-trading-for-fun-and-profit-red-dot-ruby-conf-2014",
+      event: "Red Dot Ruby Conf",
+      eventDate: "Jun 2014"
     }
   ];
 
@@ -88,6 +110,7 @@ export default function Resume() {
       <hr />
       <Work data={workData} />
       <Education data={educationData} />
+      <Talk data={talkData} />
       <Certificate data={certificateData} />
       <hr />
       <Footer />
