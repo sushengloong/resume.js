@@ -17,10 +17,11 @@ export default function Resume() {
         'Jun 2017 - Nov 2018 (Singapore)'
       ],
       bulletPoints: [
-        'Lead full-stack development of Salesforce Marketing Cloud Einstein data science product features.',
-        'Built REST API for UI Single Page App and API integration with other internal Salesforce Marketing Cloud system.',
-        'Migrated big data jobs and pipelines to new AWS account.',
-        'Built in-house Scala library to implement integration of Salesforce Marketing Cloud Single Sign On.',
+        'Developed and scaled data pipelines to process and create models on email marketing data for more than 1000 clients.',
+        'Developed web applications for clients to build, visualize and interact with custom data science reports.',
+        'Built in-house model metric dashboard framework to enable team members to quickly build dashboards using code.',
+        'Spearheaded the messaging queue architecture design and implementation work to enable asynchronous data integration among four distributed teams.',
+        'Undertook DevOps work to set up CI/CD pipelines and automate configuration management.',
         'Scala, Play framework, Apache Spark, AWS (DataPipeline, EMR, EC2, S3, Lambda, Redshift, etc), Python, Django, React, Angular, D3.js, Postgres, MySQL, RabbitMQ, Redis, Jenkins, Terraform, Heroku.'
       ]
     },
