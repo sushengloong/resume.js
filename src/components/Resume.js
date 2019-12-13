@@ -24,7 +24,7 @@ export default function Resume() {
         'Built in-house model metric dashboard framework to enable team members to quickly build dashboards using code.',
         'Spearheaded the messaging queue architecture design and implementation work to enable asynchronous data integration among four distributed teams.',
         'Undertook DevOps work to develop tooling, set up CI/CD pipelines and automate configuration management.',
-        'Scala, Play framework, Apache Spark, AWS (DataPipeline, EMR, EC2, S3, Lambda, Redshift, etc), Python, Django, React, Angular, D3.js, Postgres, MySQL, RabbitMQ, Redis, Jenkins, Terraform, Heroku.'
+        'Tech stack: Scala, Play framework, Apache Spark, AWS (DataPipeline, EMR, EC2, S3, Lambda and Redshift), Python, Django, React, Angular, D3.js, Postgres, MySQL, RabbitMQ, Redis, Jenkins, Terraform and Heroku.'
       ]
     },
     {
@@ -35,7 +35,7 @@ export default function Resume() {
       bulletPoints: [
         'Developed mission-critical government work pass systems in an Agile project team using Test-driven Development (TDD), Continuous Integration/Delivery (CI/CD) and DevOps.',
         'Conferred Minister of Manpower Award.',
-        'Ruby on Rails, Angular.JS, Java, Ansible, Go.CD, Bash, etc.'
+        'Tech stack: Ruby on Rails, Angular.JS, Java, Ansible, Go.CD and Bash.'
       ]
     },
     {
@@ -44,9 +44,29 @@ export default function Resume() {
       title: 'Senior Software Engineer',
       dates: ['Nov 2012 - Oct 2014'],
       bulletPoints: [
-        'Developed flagship stock market data product features such as real-time stock quotes, watchlist alerts, interactive charts, market data integration, etc.',
+        'Developed flagship stock market data product features such as real-time stock quotes, watchlist alerts, interactive charts and market data integration.',
         "Conferred ShareInvestor Director's Award for revamping the CMS-backed corporate website of Singapore Press Holdings.",
-        'Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle, MySQL'
+        'Tech stack: Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle and MySQL.'
+      ]
+    },
+    {
+      company: 'Accenture',
+      icon: 'accenture.jpg',
+      title: 'Liferay Portal Developer',
+      dates: ['Jul 2012 - Nov 2012'],
+      bulletPoints: [
+        'Technical consulting for an in-house development project (Accenture Digital Campus).',
+        'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
+      ]
+    },
+    {
+      company: 'NCS',
+      icon: 'ncs.png',
+      title: 'Application Consultant',
+      dates: ['Sep 2011 - Jun 2012'],
+      bulletPoints: [
+        'Developed new features and handled production support for enterprise portal applications.',
+        'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
       ]
     }
   ];
