@@ -10,11 +10,26 @@ export default function Resume() {
 
   const workData = [
     {
+      company: 'Stripe',
+      icon: 'stripe.jpg',
+      title: 'Software Engineer',
+      dates: [
+        'Feb 2020 - Present',
+      ],
+      bulletPoints: [
+        'Built programmatic treasury book transfer for cross-border funds transfer.',
+        'Built automated funds sweep pipeline to enable multicurrency payouts to merchants.',
+        'Implemented system enhancement to support payouts to neobanks.',
+        'Leading a new banking partner integration project.',
+        'Tech stack: Ruby, Scala, JavaScript, React, MongoDB and Apache Spark.'
+      ]
+    },
+    {
       company: 'Salesforce',
       icon: 'salesforce.png',
       title: 'Senior Software Engineer',
       dates: [
-        'Dec 2018 - Present (San Francisco, CA, USA)',
+        'Dec 2018 - Jan 2020 (San Francisco, CA, USA)',
         'Jun 2017 - Nov 2018 (Singapore)'
       ],
       bulletPoints: [
