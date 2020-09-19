@@ -17,10 +17,10 @@ export default function Resume() {
         'Feb 2020 - Present',
       ],
       bulletPoints: [
-        'Built programmatic treasury book transfer for cross-border funds transfer.',
+        'Implemented programmatic cross-border treasury book transfers.',
         'Built automated funds sweep pipeline to enable multicurrency payouts to merchants.',
         'Implemented system enhancement to support payouts to neobanks.',
-        'Leading a new banking partner integration project.',
+        'Leading a new banking partner integration project for new payout rails and payment method.',
         'Tech stack: Ruby, Scala, JavaScript, React, MongoDB and Apache Spark.'
       ]
     },
