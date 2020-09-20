@@ -20,7 +20,7 @@ export default function Resume() {
         'Implemented programmatic cross-border treasury book transfers.',
         'Built automated funds sweep pipeline to enable multicurrency payouts to merchants.',
         'Leading a new banking partner integration project for new payout rails and payment method.',
-        'Implemented system enhancement to support payouts to neobanks.',
+        'Implemented system enhancement to support payouts to a neobank.',
         'Tech stack: Ruby, Scala, JavaScript, React, MongoDB and Apache Spark.'
       ]
     },
