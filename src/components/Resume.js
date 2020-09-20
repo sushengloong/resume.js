@@ -19,8 +19,8 @@ export default function Resume() {
       bulletPoints: [
         'Implemented programmatic cross-border treasury book transfers.',
         'Built automated funds sweep pipeline to enable multicurrency payouts to merchants.',
-        'Implemented system enhancement to support payouts to neobanks.',
         'Leading a new banking partner integration project for new payout rails and payment method.',
+        'Implemented system enhancement to support payouts to neobanks.',
         'Tech stack: Ruby, Scala, JavaScript, React, MongoDB and Apache Spark.'
       ]
     },
