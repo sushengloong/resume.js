@@ -17,11 +17,10 @@ export default function Resume() {
         'Feb 2020 - Present',
       ],
       bulletPoints: [
-        'Implemented programmatic cross-border treasury book transfers.',
-        'Built automated funds sweep pipeline to enable multicurrency payouts to merchants.',
-        'Leading a new banking partner integration project for new payout rails and payment method.',
-        'Implemented system enhancement to support payouts to a neobank.',
-        'Tech stack: Ruby, Scala, JavaScript, React, MongoDB and Apache Spark.'
+        'Built out programmatic and automated sweeps for internal funds transfer and merchant payouts',
+        'Launched cross-border and multi-currency payouts in APAC markets.',
+        'Leading development of banking redundancy projects and technical assessment of new banking partners.',
+        'Tech stack: Ruby, Scala, JavaScript, React, MongoDB, Apache Kafka, Apache Spark, Apache Flink and Apache Airflow.'
       ]
     },
     {
