@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="row  no-gutters align-items-end">
       <div className="col-8">
-        <h1>Su Sheng Loong</h1>
+        <h1>Sheng-Loong Su</h1>
       </div>
       <div className="col-4 right-links">
         <div className="row">
