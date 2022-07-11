@@ -2,24 +2,44 @@ import React from 'react';
 import Header from './Header';
 import Work from './Work';
 import Education from './Education';
-import Talk from './Talk';
-import Certificate from './Certificate';
+// import Talk from './Talk';
+// import Certificate from './Certificate';
 import Footer from './Footer';
 
 export default function Resume() {
 
   const workData = [
     {
-      company: 'Stripe',
-      icon: 'stripe.jpg',
-      title: 'Software Engineer',
+      company: 'Smartpay',
+      icon: 'smartpay.jpg',
+      title: 'Senior Software Engineer',
       dates: [
-        'Feb 2020 - Present',
+        'July 2021 - Present',
       ],
       bulletPoints: [
+        'A founding team member, currently leading the Backend Engineering team to build out API and backend services that power all Smartpay products and experiences including Checkout, SDK, Merchant Dashboard, Consumer mobile apps and internal tools.',
+        'Being part of the Product-Engineering Steering Committee of the company. Working closely with the CEO and key stakeholders on determining roadmap and prioritization.',
+        'Set up the interview process, created technical assignments and questions. Worked closely with our recruiters on the recruiting pipeline.',
+        'Devised the deployment process to enable the team to deploy frequently, safely and transparently. The team moved from deploying once every 2 weeks to deploying everyday.',
+        'Devised the on-call process for the team members to go on rotation to support and respond to incidents and urgent issues.',
+        'Led and built out multi-acquirers backed acquiring module that enables Smartpay to charge the consumers more cost-effectively and reliably. Working closely with our partners to implement the integrations and resolve issues.',
+        'Coaching and mentoring of engineers on specific problems and career growth.',
+        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s, Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
+      ]
+    },
+    {
+      company: 'Stripe',
+      icon: 'stripe.jpg',
+      title: 'Senior Software Engineer',
+      dates: [
+        'Feb 2020 - July 2021',
+      ],
+      bulletPoints: [
+        'Led money movement work streams for new market expansion projects',
+        'Led and migrated internal financial data pipelines for data locality compliance.',
         'Built out programmatic and automated sweeps for internal funds transfer and merchant payouts.',
         'Launched cross-border and multi-currency payouts in APAC markets.',
-        'Leading development of banking redundancy projects and technical assessment of new banking partners.',
+        'Led development of banking redundancy projects and technical assessment of new banking partners.',
         'Tech stack: Ruby, Scala, JavaScript, React, MongoDB, Apache Kafka, Apache Spark, Apache Flink and Apache Airflow.'
       ]
     },
@@ -63,26 +83,26 @@ export default function Resume() {
         'Tech stack: Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle and MySQL.'
       ]
     },
-    {
-      company: 'Accenture',
-      icon: 'accenture.jpg',
-      title: 'Liferay Portal Developer',
-      dates: ['Jul 2012 - Nov 2012'],
-      bulletPoints: [
-        'Technical consulting for an in-house development project (Accenture Digital Campus).',
-        'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
-      ]
-    },
-    {
-      company: 'NCS',
-      icon: 'ncs.png',
-      title: 'Application Consultant',
-      dates: ['Sep 2011 - Jun 2012'],
-      bulletPoints: [
-        'Developed new features and handled production support for enterprise portal applications.',
-        'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
-      ]
-    }
+    // {
+    //   company: 'Accenture',
+    //   icon: 'accenture.jpg',
+    //   title: 'Liferay Portal Developer',
+    //   dates: ['Jul 2012 - Nov 2012'],
+    //   bulletPoints: [
+    //     'Technical consulting for an in-house development project (Accenture Digital Campus).',
+    //     'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
+    //   ]
+    // },
+    // {
+    //   company: 'NCS',
+    //   icon: 'ncs.png',
+    //   title: 'Application Consultant',
+    //   dates: ['Sep 2011 - Jun 2012'],
+    //   bulletPoints: [
+    //     'Developed new features and handled production support for enterprise portal applications.',
+    //     'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
+    //   ]
+    // }
   ];
 
   const educationData = [
@@ -144,8 +164,8 @@ export default function Resume() {
       <hr />
       <Work data={workData} />
       <Education data={educationData} />
-      <Talk data={talkData} />
-      <Certificate data={certificateData} />
+      {/* <Talk data={talkData} /> */}
+      {/* <Certificate data={certificateData} /> */}
       <hr />
       <Footer />
     </main>
