@@ -12,7 +12,7 @@ export default function Resume() {
     {
       company: 'Smartpay',
       icon: 'smartpay.jpg',
-      title: 'Senior Software Engineer',
+      title: 'Senior Software Engineer / Head of Backend Engineering',
       dates: [
         'July 2021 - Present',
       ],
@@ -24,7 +24,7 @@ export default function Resume() {
         'Devised the on-call process for the team members to go on rotation to support and respond to incidents and urgent issues.',
         'Led and built out multi-acquirers backed acquiring module that enables Smartpay to charge the consumers more cost-effectively and reliably. Working closely with our partners to implement the integrations and resolve issues.',
         'Coaching and mentoring of engineers on specific problems and career growth.',
-        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s, Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
+        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s (for REST), Caliban (for GraphQL), Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
       ]
     },
     {
