@@ -12,7 +12,7 @@ export default function Resume() {
     {
       company: 'Smartpay',
       icon: 'smartpay.jpg',
-      title: 'Senior Software Engineer / Head of Backend Engineering',
+      title: 'Senior Software Engineer -> Head of Backend Engineering',
       dates: [
         'July 2021 - Present',
       ],
