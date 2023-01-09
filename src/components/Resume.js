@@ -12,19 +12,19 @@ export default function Resume() {
     {
       company: 'Smartpay',
       icon: 'smartpay.jpg',
-      title: 'Senior Software Engineer -> Head of Backend Engineering',
+      title: 'Head of Backend Engineering',
       dates: [
         'July 2021 - Present',
       ],
       bulletPoints: [
-        'A founding team member, currently leading the Backend Engineering team to build out API and backend services that power all Smartpay products and experiences including Checkout, SDK, Merchant Dashboard, Consumer mobile apps and internal tools.',
-        'Being part of the Product-Engineering Steering Committee of the company. Working closely with the CEO and key stakeholders on determining roadmap and prioritization.',
-        'Set up the interview process, created technical assignments and questions. Worked closely with our recruiters on the recruiting pipeline.',
-        'Devised the deployment process to enable the team to deploy frequently, safely and transparently. The team moved from deploying once every 2 weeks to deploying everyday.',
-        'Devised the on-call process for the team members to go on rotation to support and respond to incidents and urgent issues.',
-        'Led and built out multi-acquirers backed acquiring module that enables Smartpay to charge the consumers more cost-effectively and reliably. Working closely with our partners to implement the integrations and resolve issues.',
-        'Coaching and mentoring of engineers on specific problems and career growth.',
-        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s (for REST), Caliban (for GraphQL), Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
+        'Joined as a founding team member, currently leading the Backend Engineering team to build out API and backend services that power all Smartpay products and experiences including Checkout, SDK, Merchant Dashboard, Consumer mobile apps and internal tools.',
+        'Being part of the Product-Engineering Steering Committee and the broader Cross-functional Committee of the company. Working closely with the CEO and key stakeholders to determine roadmap and prioritization.',
+        'Set up interview process including technical assignments, on-site interview questions and rubric. Worked closely with our HR and external recruiters on the recruiting pipeline.',
+        'Devised company-wide deployment process to enable teams to deploy frequently and safely. The teams moved from deploying once every 2 weeks to deploying everyday.',
+        'Devised on-call process for team members to go on rotation to support and respond to incidents and urgent issues.',
+        'Led development of a multi-acquirers backed acquiring system (first in Japan) that allows Smartpay to achieve stability and highest authorization rate in Japan.',
+        'Coaching and mentoring of engineers on technical and project issues and career growth.',
+        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s (REST), Caliban (GraphQL), Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
       ]
     },
     {
