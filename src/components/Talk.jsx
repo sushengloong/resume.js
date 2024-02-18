@@ -23,8 +23,8 @@ export default function Talk({data}) {
 
   return (
     <div className="row">
-      <div className="col-2"><h2>Talks</h2></div>
-      <div className="col-10">{renderTalks}</div>
+      <div className="col-1"><h2>Talks</h2></div>
+      <div className="col-11">{renderTalks}</div>
     </div>
     );
   };

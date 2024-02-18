@@ -28,8 +28,8 @@ export default function Certificate({data}) {
 
   return (
     <div className="row">
-      <div className="col-2"><h2>Certificates</h2></div>
-      <div className="col-10">{renderCertificates}</div>
+      <div className="col-1"><h2>Certificates</h2></div>
+      <div className="col-11">{renderCertificates}</div>
     </div>
     );
   };

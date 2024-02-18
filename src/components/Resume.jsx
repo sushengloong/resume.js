@@ -25,7 +25,7 @@ export default function Resume() {
     {
       company: 'Smartpay',
       icon: 'smartpay.jpg',
-      title: 'Head of Backend Engineering',
+      title: 'Founding Head of Backend Engineering',
       dates: [
         'July 2021 - April 2023',
       ],
@@ -96,26 +96,26 @@ export default function Resume() {
         'Tech stack: Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle and MySQL.'
       ]
     },
-    {
-      company: 'Accenture',
-      icon: 'accenture.jpg',
-      title: 'Liferay Portal Developer',
-      dates: ['Jul 2012 - Nov 2012'],
-      bulletPoints: [
-        'Technical consulting for an in-house development project (Accenture Digital Campus).',
-        'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
-      ]
-    },
-    {
-      company: 'NCS',
-      icon: 'ncs.png',
-      title: 'Application Consultant',
-      dates: ['Sep 2011 - Jun 2012'],
-      bulletPoints: [
-        'Developed new features and handled production support for enterprise portal applications.',
-        'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
-      ]
-    }
+    // {
+    //   company: 'Accenture',
+    //   icon: 'accenture.jpg',
+    //   title: 'Liferay Portal Developer',
+    //   dates: ['Jul 2012 - Nov 2012'],
+    //   bulletPoints: [
+    //     'Technical consulting for an in-house development project (Accenture Digital Campus).',
+    //     'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
+    //   ]
+    // },
+    // {
+    //   company: 'NCS',
+    //   icon: 'ncs.png',
+    //   title: 'Application Consultant',
+    //   dates: ['Sep 2011 - Jun 2012'],
+    //   bulletPoints: [
+    //     'Developed new features and handled production support for enterprise portal applications.',
+    //     'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
+    //   ]
+    // }
   ];
 
   const educationData = [
