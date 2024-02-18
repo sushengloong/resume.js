@@ -10,11 +10,24 @@ export default function Resume() {
 
   const workData = [
     {
+      company: 'Acme Technology',
+      icon: 'acme.jpg',
+      title: 'Founding Engineer / Head of Engineering',
+      dates: [
+        'April 2023 - Present',
+      ],
+      bulletPoints: [
+        'Employee #1. Designed and built our Stripe-like banking integration APIs from scratch. Working closely with our business stakeholders, customers and partners.',
+        'Managing a team of part time and remote engineers.',
+        'Tech stack: Java, Spring Boot, Python, TypeScript, React, Postgres and AWS.'
+      ]
+    },
+    {
       company: 'Smartpay',
       icon: 'smartpay.jpg',
       title: 'Head of Backend Engineering',
       dates: [
-        'July 2021 - Present',
+        'July 2021 - April 2023',
       ],
       bulletPoints: [
         'Joined as a founding team member, currently leading the Backend Engineering team to build out API and backend services that power all Smartpay products and experiences including Checkout, SDK, Merchant Dashboard, Consumer mobile apps and internal tools.',
@@ -24,7 +37,7 @@ export default function Resume() {
         'Devised on-call process for team members to go on rotation to support and respond to incidents and urgent issues.',
         'Led development of a multi-acquirers backed acquiring system (first in Japan) that allows Smartpay to achieve stability and highest authorization rate in Japan.',
         'Coaching and mentoring of engineers on technical and project issues and career growth.',
-        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s (REST), Caliban (GraphQL), Cats, Cats Effect, fs2, Postgres, Redis and Google Cloud Platform.'
+        'Tech stack: Scala, Functional Programming (Tagless Final style), http4s (REST), Caliban (GraphQL), Cats, Cats Effect, fs2, Postgres, Redis, Terraform and Google Cloud Platform.'
       ]
     },
     {
@@ -83,26 +96,26 @@ export default function Resume() {
         'Tech stack: Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle and MySQL.'
       ]
     },
-    // {
-    //   company: 'Accenture',
-    //   icon: 'accenture.jpg',
-    //   title: 'Liferay Portal Developer',
-    //   dates: ['Jul 2012 - Nov 2012'],
-    //   bulletPoints: [
-    //     'Technical consulting for an in-house development project (Accenture Digital Campus).',
-    //     'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
-    //   ]
-    // },
-    // {
-    //   company: 'NCS',
-    //   icon: 'ncs.png',
-    //   title: 'Application Consultant',
-    //   dates: ['Sep 2011 - Jun 2012'],
-    //   bulletPoints: [
-    //     'Developed new features and handled production support for enterprise portal applications.',
-    //     'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
-    //   ]
-    // }
+    {
+      company: 'Accenture',
+      icon: 'accenture.jpg',
+      title: 'Liferay Portal Developer',
+      dates: ['Jul 2012 - Nov 2012'],
+      bulletPoints: [
+        'Technical consulting for an in-house development project (Accenture Digital Campus).',
+        'Tech stack: Java, Liferay, Spring, Hibernate, jQWidgets, JasperReport, MySQL and Tomcat.'
+      ]
+    },
+    {
+      company: 'NCS',
+      icon: 'ncs.png',
+      title: 'Application Consultant',
+      dates: ['Sep 2011 - Jun 2012'],
+      bulletPoints: [
+        'Developed new features and handled production support for enterprise portal applications.',
+        'Tech stack: Java EE, Oracle WebLogic Portal, Spring, Struts, Hibernate, Axis2, Oracle UCM, Oracle WebCenter Portal, Liferay, Oracle Database and Microsoft SQL Server.'
+      ]
+    }
   ];
 
   const educationData = [
