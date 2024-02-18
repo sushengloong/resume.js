@@ -3,5 +3,5 @@
 My resume rendered in a Single Page App.
 
 ```
-$ npm start
+$ npm run dev
 ```
