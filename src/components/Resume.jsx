@@ -12,13 +12,12 @@ export default function Resume() {
     {
       company: 'Acme Technology',
       icon: 'acme.jpg',
-      title: 'Founding Engineer / Head of Engineering',
+      title: 'Founding Engineer',
       dates: [
         'April 2023 - Present',
       ],
       bulletPoints: [
-        'Employee #1. Designed and built our Stripe-like banking integration APIs from scratch. Working closely with our business stakeholders, customers and partners.',
-        'Managing a team of part time and remote engineers.',
+        'Employee #1. Designed and built modern REST APIs for banking integration from scratch, supporting real-time trasaction notifications, reconciliation, eGIRO Direct Debits, hosted eGIRO authorization, outward payments, etc.',
         'Tech stack: Java, Spring Boot, Python, TypeScript, React, Postgres and AWS.'
       ]
     },
@@ -48,7 +47,7 @@ export default function Resume() {
         'Feb 2020 - July 2021',
       ],
       bulletPoints: [
-        'Led money movement work streams for new market expansion projects',
+        'Led money movement work streams for new market expansion projects.',
         'Led and migrated internal financial data pipelines for data locality compliance.',
         'Built out programmatic and automated sweeps for internal funds transfer and merchant payouts.',
         'Launched cross-border and multi-currency payouts in APAC markets.',
@@ -81,7 +80,6 @@ export default function Resume() {
       dates: ['Oct 2014 - Jun 2017'],
       bulletPoints: [
         'Developed mission-critical government work pass systems in an Agile project team using Test-driven Development (TDD), Continuous Integration/Delivery (CI/CD) and DevOps.',
-        'Conferred Minister of Manpower Award.',
         'Tech stack: Ruby on Rails, Angular.JS, Java, Ansible, Go.CD and Bash.'
       ]
     },
@@ -92,7 +90,6 @@ export default function Resume() {
       dates: ['Nov 2012 - Oct 2014'],
       bulletPoints: [
         'Developed flagship stock market data product features such as real-time stock quotes, watchlist alerts, interactive charts and market data integration.',
-        "Conferred ShareInvestor Director's Award for revamping the CMS-backed corporate website of Singapore Press Holdings.",
         'Tech stack: Ruby on Rails, Java (Grizzly Comet streaming backend and Android app), Objective-C (iPhone app), Perl, PHP, Oracle and MySQL.'
       ]
     },
@@ -183,4 +180,4 @@ export default function Resume() {
       <Footer />
     </main>
   );
-};
+}
